@@ -1,5 +1,7 @@
 body {
+  background-image: url(https://images2.alphacoders.com/504/504108.jpg);
   margin: 0;
+  display: flex;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;

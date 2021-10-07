@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.TheGameStyle{
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}

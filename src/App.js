@@ -20,11 +20,10 @@ const GuessTheNumber = () => {
 
   return (
     <>
+     <div className = "TheGameStyle">
       <h2>Guess The No.</h2>
-      {randomNumber}
       <p className="lead">Choose a number between 1 and 20.</p>
       <input
-        
         type="number"
         onChange={e => setValue(e.target.value)}
       />
@@ -34,6 +33,7 @@ const GuessTheNumber = () => {
       <br />
       <br />
       {results}
+      </div>
     </>
   );
 };
